@@ -1,0 +1,2353 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Byron\n"
+"POT-Creation-Date: 2020-10-11 13:48+0400\n"
+"PO-Revision-Date: 2020-10-11 13:48+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:10
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:21
+msgid "Edit"
+msgstr ""
+
+#: comments.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:47
+#, php-format
+msgid "Comment (1)"
+msgid_plural "Comments (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:58
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:76
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:78 woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr ""
+
+#: comments.php:82 framework/widget-areas.php:45
+#: woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr ""
+
+#: comments.php:86 woocommerce/single-product-reviews.php:95
+msgid "Email"
+msgstr ""
+
+#: comments.php:90
+msgid "Comment"
+msgstr ""
+
+#: framework/breadcrumbs.php:13
+msgid "Home"
+msgstr ""
+
+#: framework/breadcrumbs.php:14
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: framework/breadcrumbs.php:15
+#, php-format
+msgid "Archive by \"%s\""
+msgstr ""
+
+#: framework/breadcrumbs.php:16
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: framework/breadcrumbs.php:17
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: framework/breadcrumbs.php:18
+msgid "Error 404"
+msgstr ""
+
+#: framework/breadcrumbs.php:19
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: framework/breadcrumbs.php:21 framework/customizer/customizer.php:34
+#: framework/customizer/settings/blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: framework/breadcrumbs.php:22
+msgid "Projects"
+msgstr ""
+
+#: framework/breadcrumbs.php:23 framework/customizer/customizer.php:46
+msgid "Shop"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:334 framework/plugins.php:90
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:335 framework/plugins.php:91
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:337 framework/plugins.php:92
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:340 framework/plugins.php:93
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:343 framework/plugins.php:94
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:349 framework/plugins.php:95
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:355 framework/plugins.php:100
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:367 framework/plugins.php:97
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:373 framework/plugins.php:98
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:378 framework/plugins.php:102
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:388 framework/plugins.php:103
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:392 framework/plugins.php:104
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:393
+#: framework/class-tgm-plugin-activation.php:912
+#: framework/class-tgm-plugin-activation.php:2618
+#: framework/class-tgm-plugin-activation.php:3666
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:394
+#: framework/class-tgm-plugin-activation.php:3244 framework/plugins.php:105
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:395
+#: framework/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1019
+#: framework/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:1206
+#: framework/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3604
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/customizer/customizer-controls.php:213
+#: framework/customizer/settings/bottombar.php:94
+#: framework/customizer/settings/featuredtitle.php:84
+#: framework/customizer/settings/footer.php:97
+#: framework/customizer/settings/layout.php:82
+#: framework/customizer/settings/maincontent.php:72
+#: framework/typography.php:324 framework/typography.php:354
+#: framework/typography.php:376
+msgid "Default"
+msgstr ""
+
+#: framework/customizer/customizer-controls.php:218
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/customizer/customizer-controls.php:230
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/customizer/customizer.php:19
+msgid "General Options"
+msgstr ""
+
+#: framework/customizer/customizer.php:22
+msgid "Header"
+msgstr ""
+
+#: framework/customizer/customizer.php:25 framework/typography.php:72
+msgid "Featured Title"
+msgstr ""
+
+#: framework/customizer/customizer.php:28
+msgid "Main Content"
+msgstr ""
+
+#: framework/customizer/customizer.php:31
+msgid "Layout"
+msgstr ""
+
+#: framework/customizer/customizer.php:37
+msgid "Blog Single Post"
+msgstr ""
+
+#: framework/customizer/customizer.php:40
+msgid "Sidebar Widget"
+msgstr ""
+
+#: framework/customizer/customizer.php:43
+msgid "Project Single"
+msgstr ""
+
+#: framework/customizer/customizer.php:49
+msgid "Footer"
+msgstr ""
+
+#: framework/customizer/customizer.php:52
+msgid "Footer Widget"
+msgstr ""
+
+#: framework/customizer/customizer.php:55
+msgid "Bottom Bar"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:16
+#: framework/customizer/settings/blogsingle.php:16
+#: framework/customizer/settings/bottombar.php:16
+#: framework/customizer/settings/featuredtitle.php:16
+#: framework/customizer/settings/footer.php:16
+#: framework/customizer/settings/footerwidget.php:16
+#: framework/customizer/settings/header.php:16
+#: framework/customizer/settings/maincontent.php:16
+#: framework/customizer/settings/projects.php:16 framework/typography.php:208
+msgid "General"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:23
+msgid "Blog Featured Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:32
+msgid "Entry Content Background Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:44
+msgid "Entry Content Padding"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:45
+#: framework/customizer/settings/blog.php:141
+#: framework/customizer/settings/blogsingle.php:64
+#: framework/customizer/settings/blogsingle.php:92
+#: framework/customizer/settings/blogsingle.php:193
+#: framework/customizer/settings/bottombar.php:57
+#: framework/customizer/settings/footerwidget.php:42
+#: framework/customizer/settings/general.php:282
+#: framework/customizer/settings/header.php:39
+msgid "Top Right Bottom Left."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:57
+msgid "Entry Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:58
+#: framework/customizer/settings/blogsingle.php:336
+#: framework/customizer/settings/featuredtitle.php:121
+#: framework/customizer/settings/shop.php:80
+#: framework/customizer/settings/sidebarwidget.php:25
+msgid "Example: 30px."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:70
+msgid "Entry Border Width"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:71
+#: framework/customizer/settings/maincontent.php:123
+msgid "Top Right Bottom Left. Example: 0px 2px 0px 0px"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:83
+msgid "Entry Border Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:94
+msgid "Entry Content Elements"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:98
+#: framework/customizer/settings/blogsingle.php:30
+#: framework/customizer/settings/blogsingle.php:103
+#: framework/customizer/settings/blogsingle.php:277
+msgid "Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:99
+#: framework/customizer/settings/blogsingle.php:75
+msgid "Meta"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:100
+#: framework/customizer/settings/blog.php:291
+msgid "Excerpt"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:101
+#: framework/customizer/settings/blog.php:339
+#: templates/entry-content-readmore.php:16
+msgid "Read More"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:104
+msgid "Drag and drop elements to re-order."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:112
+msgid "Blog Post - Media"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:120
+msgid "Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:132
+msgid "Blog Post - Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:140
+#: framework/customizer/settings/blog.php:309
+#: framework/customizer/settings/blogsingle.php:192
+msgid "Margin"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:153
+#: framework/customizer/settings/blog.php:322
+#: framework/customizer/settings/bottombar.php:112
+#: framework/customizer/settings/footerwidget.php:205
+#: framework/customizer/settings/footerwidget.php:250
+#: framework/customizer/settings/general.php:51
+#: framework/customizer/settings/general.php:176
+#: framework/customizer/settings/sidebarwidget.php:209
+msgid "Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:167
+msgid "Color Hover"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:179
+msgid "Blog Post - Meta"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:187
+msgid "Meta Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:190
+#: framework/customizer/settings/general.php:74
+msgid "Basic"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:191
+msgid "Modern"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:199
+msgid "Text Before Author"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:208
+#: framework/customizer/settings/blogsingle.php:91
+msgid "Meta Margin"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:209
+msgid "Top Right Bottom Left. Example: 0 0 20px 0."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:220
+msgid "Meta Items"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:221
+msgid "Click and drag and drop elements to re-order them."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:225
+msgid "Author"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:226
+msgid "Date"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:227
+msgid "Comments"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:228
+msgid "Categories"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:236
+msgid "Item Meta"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:244
+#: framework/customizer/settings/blogsingle.php:217
+#: framework/customizer/settings/blogsingle.php:398
+#: framework/customizer/settings/featuredtitle.php:163
+#: framework/customizer/settings/footer.php:63
+msgid "Text Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:256
+#: framework/customizer/settings/featuredtitle.php:178
+#: framework/customizer/settings/header.php:129
+msgid "Link Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:268
+msgid "Link Color Hover"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:280
+msgid "Blog Post - Excerpt"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:287
+msgid "Content Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:290 framework/typography.php:355
+msgid "Normal"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:299
+msgid "Excerpt length"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:301
+msgid "This option only apply for Content Style: Excerpt."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:310
+msgid "Top Right Bottom Left. Example: 0 0 30px 0."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:334
+msgid "Blog Post - Read More"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:341
+msgid "Button Text"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:23
+msgid "Feature Title"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:28
+msgid "Our Blog"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:32
+msgid "If empty, it will be blog title by default."
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:39
+#: framework/customizer/settings/bottombar.php:82
+#: framework/customizer/settings/featuredtitle.php:72
+#: framework/customizer/settings/footer.php:86
+#: framework/customizer/settings/maincontent.php:61
+msgid "Background Image"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:47
+msgid "Media"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:54
+msgid "Enable Post Media on Single Post"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:63
+msgid "Media Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:82
+msgid "Enable Post Meta on Single Post"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:110
+msgid "Enable Post Title on Single Post"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:119
+msgid "Title Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:120
+msgid "Top Right Bottom Left. Default: 0 0 10px 0."
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:132
+#: framework/customizer/settings/blogsingle.php:285
+#: framework/customizer/settings/featuredtitle.php:133
+msgid "Title Color"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:145
+msgid "Tags"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:152
+msgid "Enable Post Tags on Single Post"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:160
+msgid "Tags Text"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:168
+msgid "Previous-Next Post Pagination"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:175
+msgid "Enable Next - Previous Post"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:184
+msgid "Blog Single Post - Author"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:205
+#: framework/customizer/settings/blogsingle.php:374
+msgid "Name Color"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:229
+msgid "Image Width"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:244
+msgid "Image Right Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:245
+#: framework/customizer/settings/blogsingle.php:362
+msgid "Example: 40px."
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:257
+msgid "Image Rounded"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:258
+#: framework/customizer/settings/blogsingle.php:349
+msgid "Example: 10px. 0px is square."
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:270
+msgid "Blog Single Post - Comment"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:300
+msgid "Title Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:315
+msgid "Comment List"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:323
+msgid "Avatar Width"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:335
+msgid "Avatar Right Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:348
+msgid "Avatar Rounded"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:361
+msgid "Article Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:386
+msgid "Date Color"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:410
+msgid "Comment Form"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:418
+msgid "Form Border Color"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:430
+msgid "Form Rounded"
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:431
+msgid "Example: 3px. 0px is square."
+msgstr ""
+
+#: framework/customizer/settings/blogsingle.php:443
+msgid "Form Border Width"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:23
+#: framework/customizer/settings/featuredtitle.php:23
+#: framework/customizer/settings/featuredtitle.php:109
+#: framework/customizer/settings/featuredtitle.php:153
+#: framework/customizer/settings/footerwidget.php:23
+#: framework/customizer/settings/general.php:42
+#: framework/customizer/settings/general.php:102
+#: framework/customizer/settings/header.php:191
+#: framework/customizer/settings/header.php:225
+#: framework/customizer/settings/header.php:313
+msgid "Enable"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:31
+#: framework/customizer/settings/featuredtitle.php:31
+msgid "Style"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:35
+msgid "All Content"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:36
+msgid "Only Copyright"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:37
+msgid "Logo + Copyright"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:46 framework/typography.php:140
+msgid "Copyright"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:56
+#: framework/customizer/settings/featuredtitle.php:45
+#: framework/customizer/settings/footerwidget.php:163
+#: framework/customizer/settings/footerwidget.php:237
+#: framework/customizer/settings/general.php:281
+#: framework/customizer/settings/header.php:38
+#: framework/customizer/settings/maincontent.php:97
+#: framework/customizer/settings/maincontent.php:155
+#: framework/customizer/settings/sidebarwidget.php:167
+msgid "Padding"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:70
+#: framework/customizer/settings/featuredtitle.php:60
+#: framework/customizer/settings/general.php:133
+#: framework/customizer/settings/header.php:23
+msgid "Background"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:90
+#: framework/customizer/settings/featuredtitle.php:80
+#: framework/customizer/settings/footer.php:93
+#: framework/customizer/settings/maincontent.php:68
+msgid "Background Image Style"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:95
+#: framework/customizer/settings/featuredtitle.php:85
+#: framework/customizer/settings/footer.php:98
+#: framework/customizer/settings/layout.php:83
+#: framework/customizer/settings/maincontent.php:73
+msgid "Cover"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:96
+#: framework/customizer/settings/featuredtitle.php:86
+#: framework/customizer/settings/footer.php:99
+#: framework/customizer/settings/layout.php:84
+#: framework/customizer/settings/maincontent.php:74
+msgid "Center Top"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:97
+#: framework/customizer/settings/featuredtitle.php:87
+#: framework/customizer/settings/footer.php:100
+#: framework/customizer/settings/layout.php:85
+#: framework/customizer/settings/maincontent.php:75
+msgid "Fixed Top"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:98
+#: framework/customizer/settings/featuredtitle.php:88
+#: framework/customizer/settings/footer.php:101
+#: framework/customizer/settings/layout.php:86
+#: framework/customizer/settings/maincontent.php:76
+msgid "Fixed Center"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:99
+#: framework/customizer/settings/featuredtitle.php:89
+#: framework/customizer/settings/footer.php:102
+#: framework/customizer/settings/layout.php:87
+#: framework/customizer/settings/maincontent.php:77
+msgid "Fixed Bottom"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:100
+#: framework/customizer/settings/featuredtitle.php:90
+#: framework/customizer/settings/footer.php:103
+#: framework/customizer/settings/layout.php:88
+#: framework/customizer/settings/maincontent.php:78
+msgid "Repeat"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:101
+#: framework/customizer/settings/featuredtitle.php:91
+#: framework/customizer/settings/footer.php:104
+#: framework/customizer/settings/layout.php:89
+#: framework/customizer/settings/maincontent.php:79
+msgid "Repeat-x"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:102
+#: framework/customizer/settings/featuredtitle.php:92
+#: framework/customizer/settings/footer.php:105
+#: framework/customizer/settings/layout.php:90
+#: framework/customizer/settings/maincontent.php:80
+msgid "Repeat-y"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:125
+msgid "Line Color"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:138
+#: framework/customizer/settings/header.php:53
+msgid "Logo"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:145
+#: framework/customizer/settings/header.php:60
+msgid "Logo Image"
+msgstr ""
+
+#: framework/customizer/settings/bottombar.php:152
+#: framework/customizer/settings/header.php:67
+msgid "Logo Width"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:34
+msgid "Simple"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:35
+msgid "Centered"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:46
+msgid "Example: 250px 0px 150px 0px"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:102
+#: framework/typography.php:49
+msgid "Headings"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:119
+msgid "Heading Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:146
+#: framework/typography.php:84
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/customizer/settings/featuredtitle.php:191
+#: framework/customizer/settings/header.php:143
+msgid "Link Color: Hover"
+msgstr ""
+
+#: framework/customizer/settings/footer.php:23
+msgid "Footer Column(s)"
+msgstr ""
+
+#: framework/customizer/settings/footer.php:39
+msgid "Footer Column Gutter"
+msgstr ""
+
+#: framework/customizer/settings/footer.php:75
+#: framework/customizer/settings/footerwidget.php:217
+#: framework/customizer/settings/maincontent.php:50
+#: framework/customizer/settings/maincontent.php:110
+#: framework/customizer/settings/maincontent.php:168
+#: framework/customizer/settings/sidebarwidget.php:221
+msgid "Background Color"
+msgstr ""
+
+#: framework/customizer/settings/footer.php:114
+#: framework/customizer/settings/maincontent.php:24
+msgid "Top Padding"
+msgstr ""
+
+#: framework/customizer/settings/footer.php:115
+#: framework/customizer/settings/footer.php:128
+msgid "Example: 60px."
+msgstr ""
+
+#: framework/customizer/settings/footer.php:127
+#: framework/customizer/settings/maincontent.php:37
+msgid "Bottom Padding"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:32
+#: framework/customizer/settings/sidebarwidget.php:37
+msgid "Title Widget"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:41
+#: framework/customizer/settings/sidebarwidget.php:45
+msgid "Title Widget: Margin"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:55
+#: framework/customizer/settings/sidebarwidget.php:60
+msgid "Title Widget: Color"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:68
+#: framework/customizer/settings/sidebarwidget.php:72
+msgid "Widget: Search"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:76
+#: framework/customizer/settings/sidebarwidget.php:80
+msgid "Icon Color"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:88
+#: framework/customizer/settings/general.php:147
+#: framework/customizer/settings/maincontent.php:135
+#: framework/customizer/settings/maincontent.php:193
+#: framework/customizer/settings/sidebarwidget.php:92
+msgid "Border Color"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:100
+#: framework/customizer/settings/general.php:161
+#: framework/customizer/settings/maincontent.php:122
+#: framework/customizer/settings/maincontent.php:180
+#: framework/customizer/settings/sidebarwidget.php:104
+msgid "Border Width"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:112
+#: framework/customizer/settings/sidebarwidget.php:116
+msgid "Widget: Categories, Archives, Meta..."
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:120
+#: framework/customizer/settings/sidebarwidget.php:124
+msgid "Item Padding"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:121
+msgid "Top Right Bottom Left. Ex: 13px 0px 13px 0px"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:138
+#: framework/customizer/settings/sidebarwidget.php:142
+msgid "Links Color"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:155
+msgid "Footer Widget: Tags"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:164
+#: framework/customizer/settings/sidebarwidget.php:168
+msgid "Top Right Bottom Left. Ex: 2px 8px 2px 8px"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:176
+#: framework/customizer/settings/sidebarwidget.php:180
+msgid "Rounded"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:177
+#: framework/customizer/settings/sidebarwidget.php:181
+msgid "0px is square."
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:189
+#: framework/customizer/settings/sidebarwidget.php:193
+msgid "Space Between Items"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:190
+#: framework/customizer/settings/sidebarwidget.php:194
+msgid "Example: 6px."
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:229
+msgid "Footer Widget: Links"
+msgstr ""
+
+#: framework/customizer/settings/footerwidget.php:238
+msgid "Top Right Bottom Left. Ex: 10px 0px 10px 0px"
+msgstr ""
+
+#: framework/customizer/settings/general.php:16
+msgid "Accent Colors"
+msgstr ""
+
+#: framework/customizer/settings/general.php:23
+msgid "Accent Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:32
+msgid "PreLoader"
+msgstr ""
+
+#: framework/customizer/settings/general.php:39
+msgid "Preloader Option"
+msgstr ""
+
+#: framework/customizer/settings/general.php:43
+msgid "Disable"
+msgstr ""
+
+#: framework/customizer/settings/general.php:64
+msgid "Header Site"
+msgstr ""
+
+#: framework/customizer/settings/general.php:71
+msgid "Header Style"
+msgstr ""
+
+#: framework/customizer/settings/general.php:75
+msgid "Modern 1"
+msgstr ""
+
+#: framework/customizer/settings/general.php:76
+msgid "Modern 2"
+msgstr ""
+
+#: framework/customizer/settings/general.php:77
+msgid "Modern 3"
+msgstr ""
+
+#: framework/customizer/settings/general.php:79
+msgid ""
+"Header Style for all pages on website. (e.g. pages, blog posts, single post, "
+"archives, etc ). Single page can override this setting in Page Settings "
+"elementor when edit."
+msgstr ""
+
+#: framework/customizer/settings/general.php:86
+msgid "Header Fixed: Enable"
+msgstr ""
+
+#: framework/customizer/settings/general.php:95
+msgid "Scroll Top Button"
+msgstr ""
+
+#: framework/customizer/settings/general.php:111
+msgid "Forms"
+msgstr ""
+
+#: framework/customizer/settings/general.php:119
+msgid "Border Rounded"
+msgstr ""
+
+#: framework/customizer/settings/general.php:162
+msgid "Enter a value in pixels. Example: 1px"
+msgstr ""
+
+#: framework/customizer/settings/general.php:190
+msgid "Responsive"
+msgstr ""
+
+#: framework/customizer/settings/general.php:198
+msgid "Mobile Logo"
+msgstr ""
+
+#: framework/customizer/settings/general.php:206
+msgid "Mobile Logo: Width"
+msgstr ""
+
+#: framework/customizer/settings/general.php:207
+msgid "Example: 150px"
+msgstr ""
+
+#: framework/customizer/settings/general.php:220
+msgid "Mobile Logo: Margin"
+msgstr ""
+
+#: framework/customizer/settings/general.php:221
+msgid "Example: 20px 0px 20px 0px"
+msgstr ""
+
+#: framework/customizer/settings/general.php:234 framework/typography.php:67
+msgid "Mobile Menu"
+msgstr ""
+
+#: framework/customizer/settings/general.php:242
+msgid "Item Height"
+msgstr ""
+
+#: framework/customizer/settings/general.php:243
+msgid "Example: 40px"
+msgstr ""
+
+#: framework/customizer/settings/general.php:257
+msgid "Mobile Menu Logo"
+msgstr ""
+
+#: framework/customizer/settings/general.php:264
+msgid "Mobile Menu Logo: Width"
+msgstr ""
+
+#: framework/customizer/settings/general.php:273
+msgid "Mobile Featured Title"
+msgstr ""
+
+#: framework/customizer/settings/header.php:76
+msgid "Menu"
+msgstr ""
+
+#: framework/customizer/settings/header.php:84
+msgid "Show current page indicator?"
+msgstr ""
+
+#: framework/customizer/settings/header.php:93
+msgid "Link Spacing"
+msgstr ""
+
+#: framework/customizer/settings/header.php:94
+msgid "Example: 20px"
+msgstr ""
+
+#: framework/customizer/settings/header.php:111
+msgid "Menu Height"
+msgstr ""
+
+#: framework/customizer/settings/header.php:112
+msgid "Example: 100px"
+msgstr ""
+
+#: framework/customizer/settings/header.php:157
+msgid "Search & Cart"
+msgstr ""
+
+#: framework/customizer/settings/header.php:165
+msgid "Search Icon"
+msgstr ""
+
+#: framework/customizer/settings/header.php:174
+msgid "Cart Icon"
+msgstr ""
+
+#: framework/customizer/settings/header.php:184
+msgid "Button"
+msgstr ""
+
+#: framework/customizer/settings/header.php:197
+msgid "Get a Quote"
+msgstr ""
+
+#: framework/customizer/settings/header.php:199
+msgid "Text"
+msgstr ""
+
+#: framework/customizer/settings/header.php:206
+msgid "https://your-link.com"
+msgstr ""
+
+#: framework/customizer/settings/header.php:208
+msgid "Url"
+msgstr ""
+
+#: framework/customizer/settings/header.php:218
+msgid "Header Information"
+msgstr ""
+
+#: framework/customizer/settings/header.php:232
+msgid "Phone Numbers"
+msgstr ""
+
+#: framework/customizer/settings/header.php:234
+msgid "Phone:"
+msgstr ""
+
+#: framework/customizer/settings/header.php:242
+msgid "(+1) 212-946-2707"
+msgstr ""
+
+#: framework/customizer/settings/header.php:251
+msgid "Email Address"
+msgstr ""
+
+#: framework/customizer/settings/header.php:253
+msgid "Email:"
+msgstr ""
+
+#: framework/customizer/settings/header.php:261
+msgid "info@ByronCo.com"
+msgstr ""
+
+#: framework/customizer/settings/header.php:270
+msgid "Our Location"
+msgstr ""
+
+#: framework/customizer/settings/header.php:272
+msgid "Address:"
+msgstr ""
+
+#: framework/customizer/settings/header.php:280
+msgid "112 W 34th St, NYC"
+msgstr ""
+
+#: framework/customizer/settings/header.php:292
+msgid "Header Infor Color"
+msgstr ""
+
+#: framework/customizer/settings/header.php:306
+msgid "Social"
+msgstr ""
+
+#: framework/customizer/settings/header.php:321
+msgid "Socials Spacing"
+msgstr ""
+
+#: framework/customizer/settings/header.php:322
+msgid "Gap Between Each Social. Example: 10px."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:16
+msgid "Layout Site"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:23
+msgid "Layout Style"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:26
+msgid "Full Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:27
+msgid "Boxed"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:34
+msgid "Box Shadow"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:44
+msgid "Wrapper Margin"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:45
+msgid "Top Right Bottom Left. Default: 30px 0px 30px 0px."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:57
+msgid "Outer Background Color"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:69
+msgid "Outer Background Image"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:78
+msgid "Outer Background Image Style"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:100
+msgid "Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:107
+msgid "Site Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:110
+#: framework/customizer/settings/layout.php:124
+#: framework/customizer/settings/layout.php:138
+#: framework/customizer/settings/shop.php:26
+#: framework/customizer/settings/shop.php:103
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:111
+#: framework/customizer/settings/layout.php:125
+#: framework/customizer/settings/layout.php:139
+#: framework/customizer/settings/shop.php:27
+#: framework/customizer/settings/shop.php:104
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:112
+#: framework/customizer/settings/layout.php:126
+#: framework/customizer/settings/layout.php:140
+#: framework/customizer/settings/shop.php:28
+#: framework/customizer/settings/shop.php:105
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:114
+msgid ""
+"Specify layout for all pages on website. (e.g. pages, blog posts, single "
+"post, archives, etc ). Single page can override this setting in Page "
+"Settings elementor when edit."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:121
+msgid "Custom Page Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:128
+msgid "Specify layout for all custom pages."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:135
+msgid "Single Post Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:142
+msgid "Specify layout for all single post pages."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:150
+msgid "Layout Widths"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:157
+msgid "Container"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:159
+msgid "Default: 1170px"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:173
+#: framework/customizer/settings/maincontent.php:89
+msgid "Content"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:175
+msgid "Example: 66%"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:186
+#: framework/customizer/settings/maincontent.php:147
+msgid "Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:188
+msgid "Example: 28%"
+msgstr ""
+
+#: framework/customizer/settings/maincontent.php:25
+#: framework/customizer/settings/maincontent.php:38
+msgid "Example: 30px"
+msgstr ""
+
+#: framework/customizer/settings/maincontent.php:98
+#: framework/customizer/settings/maincontent.php:156
+msgid "Top Right Bottom Left. Example: 30px"
+msgstr ""
+
+#: framework/customizer/settings/maincontent.php:181
+msgid "Top Right Bottom Left. Example: 0px 3px 3px 0px"
+msgstr ""
+
+#: framework/customizer/settings/projects.php:23
+msgid "Single Project: Featured Title Background"
+msgstr ""
+
+#: framework/customizer/settings/projects.php:29
+msgid "Our Projects"
+msgstr ""
+
+#: framework/customizer/settings/projects.php:31
+msgid "Single Project: Featured Title"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:16
+msgid "Main Shop"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:23
+msgid "Shop Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:30
+msgid "Specify layout for main shop page."
+msgstr ""
+
+#: framework/customizer/settings/shop.php:36
+#: framework/customizer/settings/shop.php:113
+msgid "Our Shop"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:38
+msgid "Shop: Featured Title"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:47
+msgid "Shop: Featured Title Background"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:55
+msgid "Products Per Page"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:64
+msgid "Shop Columns"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:79
+msgid "Item Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:93
+msgid "Single Shop"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:100
+msgid "Shop Single Layout Position"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:107
+msgid "Specify layout on the shop single page."
+msgstr ""
+
+#: framework/customizer/settings/shop.php:115
+msgid "Shop Single: Featured Title"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:124
+msgid "Shop Single: Featured Title Background"
+msgstr ""
+
+#: framework/customizer/settings/shop.php:132
+msgid "Related Product Columns"
+msgstr ""
+
+#: framework/customizer/settings/sidebarwidget.php:16
+msgid "Widget General"
+msgstr ""
+
+#: framework/customizer/settings/sidebarwidget.php:24
+msgid "Widget Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/sidebarwidget.php:46
+msgid "Top Right Bottom Left. Ex: 0px 0px 5px 0px"
+msgstr ""
+
+#: framework/customizer/settings/sidebarwidget.php:125
+msgid "Top Right Bottom Left. Ex: 13px 0px"
+msgstr ""
+
+#: framework/customizer/settings/sidebarwidget.php:159
+msgid "Widget: Tags"
+msgstr ""
+
+#: framework/demo-install.php:22
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: framework/plugins.php:29
+msgid "Elementor"
+msgstr ""
+
+#: framework/plugins.php:34
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/plugins.php:41
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/plugins.php:46
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/plugins.php:51
+msgid "One Click Demo Import"
+msgstr ""
+
+#: framework/plugins.php:56
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: framework/plugins.php:61
+msgid "WP User Avatars"
+msgstr ""
+
+#: framework/plugins.php:66
+msgid "Masterlayer Addons for Elementor"
+msgstr ""
+
+#: framework/plugins.php:96
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins.php:99
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins.php:101
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins.php:106
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/theme-functions.php:171
+msgid "Written by"
+msgstr ""
+
+#: framework/theme-functions.php:173
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/theme-functions.php:301 templates/entry-content-author.php:34
+msgid "Facebook"
+msgstr ""
+
+#: framework/theme-functions.php:305 templates/entry-content-author.php:40
+msgid "Twitter"
+msgstr ""
+
+#: framework/theme-functions.php:309 templates/entry-content-author.php:64
+msgid "Instagram"
+msgstr ""
+
+#: framework/theme-functions.php:313
+msgid "Youtube"
+msgstr ""
+
+#: framework/theme-functions.php:317
+msgid "Dribbble"
+msgstr ""
+
+#: framework/theme-functions.php:321
+msgid "Vimeo"
+msgstr ""
+
+#: framework/theme-functions.php:325
+msgid "Tumblr"
+msgstr ""
+
+#: framework/theme-functions.php:329 templates/entry-content-author.php:58
+msgid "Pinterest"
+msgstr ""
+
+#: framework/theme-functions.php:333
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/theme-hooks.php:128 templates/header-extra-nav.php:31
+msgid "View your shopping cart"
+msgstr ""
+
+#: framework/theme-hooks.php:128 templates/header-extra-nav.php:31
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/typography.php:42
+msgid "Body"
+msgstr ""
+
+#: framework/typography.php:57
+msgid "Main Menu"
+msgstr ""
+
+#: framework/typography.php:62
+msgid "Main Menu: Dropdowns"
+msgstr ""
+
+#: framework/typography.php:78
+msgid "Featured Sub-Title"
+msgstr ""
+
+#: framework/typography.php:90
+msgid "Blog Post Title"
+msgstr ""
+
+#: framework/typography.php:95
+msgid "Blog Single Post Title"
+msgstr ""
+
+#: framework/typography.php:100
+msgid "Buttons"
+msgstr ""
+
+#: framework/typography.php:105
+msgid "Pagination"
+msgstr ""
+
+#: framework/typography.php:110
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: framework/typography.php:114
+msgid "Footer Widget Title"
+msgstr ""
+
+#: framework/typography.php:119
+msgid "Bottom Menu"
+msgstr ""
+
+#: framework/typography.php:124
+msgid "H1"
+msgstr ""
+
+#: framework/typography.php:128
+msgid "H2"
+msgstr ""
+
+#: framework/typography.php:132
+msgid "H3"
+msgstr ""
+
+#: framework/typography.php:136
+msgid "H4"
+msgstr ""
+
+#: framework/typography.php:146
+msgid "Woocommerce: Product Title"
+msgstr ""
+
+#: framework/typography.php:152
+msgid "Woocommerce: Price Amount"
+msgstr ""
+
+#: framework/typography.php:158
+msgid "Woocommerce: Single Product Title"
+msgstr ""
+
+#: framework/typography.php:164
+msgid "Woocommerce: Single Price Amount"
+msgstr ""
+
+#: framework/typography.php:203
+msgid "Typography"
+msgstr ""
+
+#: framework/typography.php:220
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/typography.php:300
+msgid "Font Family"
+msgstr ""
+
+#: framework/typography.php:312
+msgid "Note: Not all Fonts support every font weight style."
+msgstr ""
+
+#: framework/typography.php:317
+msgid "Font Weight"
+msgstr ""
+
+#: framework/typography.php:325
+msgid "Extra Light: 100"
+msgstr ""
+
+#: framework/typography.php:326
+msgid "Light: 200"
+msgstr ""
+
+#: framework/typography.php:327
+msgid "Book: 300"
+msgstr ""
+
+#: framework/typography.php:328
+msgid "Normal: 400"
+msgstr ""
+
+#: framework/typography.php:329
+msgid "Medium: 500"
+msgstr ""
+
+#: framework/typography.php:330
+msgid "Semibold: 600"
+msgstr ""
+
+#: framework/typography.php:331
+msgid "Bold: 700"
+msgstr ""
+
+#: framework/typography.php:332
+msgid "Extra Bold: 800"
+msgstr ""
+
+#: framework/typography.php:333
+msgid "Black: 900"
+msgstr ""
+
+#: framework/typography.php:335
+msgid "Important: Not all fonts support every font-weight."
+msgstr ""
+
+#: framework/typography.php:347
+msgid "Font Style"
+msgstr ""
+
+#: framework/typography.php:356
+msgid "Italic"
+msgstr ""
+
+#: framework/typography.php:369
+msgid "Text Transform"
+msgstr ""
+
+#: framework/typography.php:377
+msgid "Capitalize"
+msgstr ""
+
+#: framework/typography.php:378
+msgid "Lowercase"
+msgstr ""
+
+#: framework/typography.php:379
+msgid "Uppercase"
+msgstr ""
+
+#: framework/typography.php:392
+msgid "Font Size"
+msgstr ""
+
+#: framework/typography.php:397 framework/typography.php:451
+msgid "Value in px or em."
+msgstr ""
+
+#: framework/typography.php:411
+msgid "Font Color"
+msgstr ""
+
+#: framework/typography.php:428
+msgid "Line Height"
+msgstr ""
+
+#: framework/typography.php:445
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/widget-areas.php:40
+msgid "Create a Widget Area"
+msgstr ""
+
+#: framework/widget-areas.php:49
+msgid "Create Widget Area"
+msgstr ""
+
+#: framework/widget-areas.php:173
+msgid "Delete"
+msgstr ""
+
+#: framework/widget-areas.php:174
+msgid "Confirm"
+msgstr ""
+
+#: framework/widget-areas.php:175
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:31
+msgid "Onepage Menu"
+msgstr ""
+
+#: functions.php:32
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:96
+msgid "Sidebar Blog"
+msgstr ""
+
+#: functions.php:98
+msgid "Add widgets here to appear in Sidebar Blog."
+msgstr ""
+
+#: functions.php:107
+msgid "Sidebar Page"
+msgstr ""
+
+#: functions.php:109
+msgid "Add widgets here to appear in Sidebar Page"
+msgstr ""
+
+#: functions.php:118
+msgid "Sidebar Portfolio"
+msgstr ""
+
+#: functions.php:120
+msgid "Add widgets here to appear in Sidebar Portfolio"
+msgstr ""
+
+#: functions.php:129
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:131
+msgid "Add widgets here to appear in Sidebar Shop"
+msgstr ""
+
+#: functions.php:140
+msgid "Sidebar Footer 1"
+msgstr ""
+
+#: functions.php:142
+msgid "Add widgets here to appear in Sidebar Footer 1"
+msgstr ""
+
+#: functions.php:149
+msgid "Sidebar Footer 2"
+msgstr ""
+
+#: functions.php:151
+msgid "Add widgets here to appear in Sidebar Footer 2"
+msgstr ""
+
+#: functions.php:158
+msgid "Sidebar Footer 3"
+msgstr ""
+
+#: functions.php:160
+msgid "Add widgets here to appear in Sidebar Footer 3"
+msgstr ""
+
+#: functions.php:167
+msgid "Sidebar Footer 4"
+msgstr ""
+
+#: functions.php:169
+msgid "Add widgets here to appear in Sidebar Footer 4"
+msgstr ""
+
+#: page.php:12 templates/entry-content-body.php:20
+#: templates/entry-content-body.php:40 templates/page-onepage.php:16
+msgid "Pages:"
+msgstr ""
+
+#: search.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:2
+msgctxt "placeholder"
+msgid "Type your keyword..."
+msgstr ""
+
+#: searchform.php:2
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: searchform.php:3
+msgid "SEARCH"
+msgstr ""
+
+#: templates/entry-content-author.php:46
+msgid "Google +"
+msgstr ""
+
+#: templates/entry-content-author.php:52
+msgid "Linkedin"
+msgstr ""
+
+#: templates/entry-content-media.php:41
+msgid "Image"
+msgstr ""
+
+#: templates/entry-content-next-previous.php:33
+msgid "Prev Post"
+msgstr ""
+
+#: templates/entry-content-next-previous.php:48
+msgid "Next Post"
+msgstr ""
+
+#: templates/featured-title.php:31
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: templates/featured-title.php:33
+msgid "Not Found"
+msgstr ""
+
+#: templates/featured-title.php:36
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: templates/featured-title.php:39
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: templates/featured-title.php:41
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: templates/featured-title.php:43
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: templates/header-social.php:33
+msgid "Profile"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Byron"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://ninzio.com/byron"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Byron WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ninzio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/ninzio"
+msgstr ""

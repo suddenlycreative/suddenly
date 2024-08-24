@@ -1,0 +1,479 @@
+[23-Aug-2024 01:13:11 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:13:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:13:11 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:13:16 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event-runner.php on line 94
+[23-Aug-2024 01:13:17 UTC] PHP Fatal error:  Uncaught Error: Class "DOMDocument" not found in /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-multiple-gtags.php:19
+Stack trace:
+#0 /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event.php(216): MonsterInsights_Notification_Multiple_Gtags->prepare_notification_data()
+#1 /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event-runner.php(124): MonsterInsights_Notification_Event->add_notification()
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): MonsterInsights_Notification_Event_Runner->maybe_add_notifications()
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications/notification-multiple-gtags.php on line 19
+[23-Aug-2024 01:13:19 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:13:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:13:19 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:17:22 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:17:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:17:22 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:17:28 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notification-event-runner.php on line 94
+[23-Aug-2024 01:17:41 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:17:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:17:41 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:18:09 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:18:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:18:09 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:19:28 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:19:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:19:28 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Utils" not found in /var/www/html/wp-content/plugins/elementor/core/logger/manager.php:41
+Stack trace:
+#0 [internal function]: Elementor\Core\Logger\Manager->shutdown()
+#1 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/core/logger/manager.php on line 41
+[23-Aug-2024 01:23:14 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:23:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:23:15 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:23:28 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:23:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:23:28 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:25:37 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:25:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:25:37 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:26:59 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:26:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:26:59 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:28:23 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:28:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:28:23 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:29:51 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:29:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:29:51 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:33:19 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:33:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:33:19 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:33:31 UTC] Erro de evento de reagendamento do cron para o gancho: action_scheduler_run_queue, código de erro: invalid_schedule, mensagem de erro: Agendamento do evento não existe., dados: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Aug-2024 01:39:11 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:39:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:39:11 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementos.old/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementos.old/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementos.old/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementos.old/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementos.old/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementos.old/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:39:39 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Utils" not found in /var/www/html/wp-content/plugins/elementos.old/core/logger/manager.php:41
+Stack trace:
+#0 [internal function]: Elementor\Core\Logger\Manager->shutdown()
+#1 {main}
+  thrown in /var/www/html/wp-content/plugins/elementos.old/core/logger/manager.php on line 41
+[23-Aug-2024 01:40:54 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:40:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:40:54 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:42:34 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:42:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:42:34 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:42:41 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:42:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:42:41 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:44:39 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:44:39 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:53:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/elementor/includes/template-library/sources/local.php:896
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/template-library/manager.php(458): Elementor\TemplateLibrary\Source_Local->import_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/template-library/manager.php(673): Elementor\TemplateLibrary\Manager->direct_import_template()
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\TemplateLibrary\Manager->handle_direct_actions()
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 896
+[23-Aug-2024 01:54:03 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/elementor/includes/template-library/sources/local.php:896
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/template-library/manager.php(458): Elementor\TemplateLibrary\Source_Local->import_template()
+#1 /var/www/html/wp-content/plugins/elementor/includes/template-library/manager.php(673): Elementor\TemplateLibrary\Manager->direct_import_template()
+#2 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\TemplateLibrary\Manager->handle_direct_actions()
+#3 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/html/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 896
+[23-Aug-2024 01:56:20 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 01:57:01 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:01 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:57:20 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:20 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 01:57:28 UTC] PHP Warning:  Undefined array key "add_ons" in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21
+[23-Aug-2024 01:57:28 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 21 and defined in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status()
+#1 /var/www/html/wp-content/plugins/elementor/modules/home/classes/transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform()
+#2 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 /var/www/html/wp-content/plugins/elementor/modules/home/api.php(18): Elementor\Modules\Home\API::transform_home_screen_data()
+#4 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 /var/www/html/wp-content/plugins/elementor/modules/home/module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 /var/www/html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts()
+#7 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /var/www/html/wp-admin/admin-header.php(139): do_action()
+#10 /var/www/html/wp-admin/admin.php(239): require_once('...')
+#11 {main}
+  thrown in /var/www/html/wp-content/plugins/elementor/modules/home/transformations/filter-plugins.php on line 30
+[23-Aug-2024 02:14:59 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 02:17:40 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 04:14:53 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:13 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:23 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:36 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:51 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:53 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:54 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:15:55 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:00 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:04 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:12 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:15 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:17 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:19 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:16:49 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:17:49 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:17:56 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:18:39 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:19:48 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:20:09 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/wp-content/themes/technix/template-parts/header/header-side-info.php on line 88
+[23-Aug-2024 04:21:48 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 04:21:48 UTC] PHP Deprecated:  A função get_page_by_title está <strong>obsoleta</strong> desde a versão 6.2.0! Em vez disso, use WP_Query. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 04:24:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:24:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:26:40 UTC] PHP Warning:  Undefined variable $multiple in /var/www/html/wp-content/plugins/pure-metafields/metaboxes/fields/select.php on line 13
+[23-Aug-2024 04:26:40 UTC] PHP Warning:  Undefined variable $multiple in /var/www/html/wp-content/plugins/pure-metafields/metaboxes/fields/select.php on line 13
+[23-Aug-2024 04:26:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:26:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:29:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:29:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:30:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:30:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:51:38 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 04:58:00 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:59:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 04:59:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:08:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:09:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 05:09:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:07:18 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in /var/www/html/wp-content/plugins/elementor/includes/api.php on line 164
+[23-Aug-2024 21:07:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:07:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:07:27 UTC] Automatic updates starting...
+[23-Aug-2024 21:08:04 UTC] PHP Warning:  wp_update_plugins(): Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 21:08:41 UTC]   Automatic plugin updates starting...
+[23-Aug-2024 21:08:41 UTC]   Automatic plugin updates complete.
+[23-Aug-2024 21:09:11 UTC] PHP Warning:  wp_update_themes(): Ocorreu um erro inesperado. Algo pode estar errado com o WordPress.org ou com a configuração deste servidor. Se os problemas persistirem, busque ajuda no <a href="https://br.wordpress.org/support/forums/">fórum de suporte</a>. (O WordPress não conseguiu estabelecer uma conexão segura com o WordPress.org. Contate o administrador do servidor.) in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 21:09:29 UTC] Automatic updates complete.
+[23-Aug-2024 21:09:54 UTC] PHP Deprecated:  A função wp_update_https_detection_errors está <strong>obsoleta</strong> desde a versão 6.4.0 sem nenhuma alternativa disponível. in /var/www/html/wp-includes/functions.php on line 6085
+[23-Aug-2024 21:10:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:10:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:10:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[23-Aug-2024 21:10:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[24-Aug-2024 15:23:36 UTC] Automatic updates starting...
+[24-Aug-2024 15:23:37 UTC]   Automatic plugin updates starting...
+[24-Aug-2024 15:23:37 UTC]   Automatic plugin updates complete.
+[24-Aug-2024 15:23:38 UTC] Automatic updates complete.
+[24-Aug-2024 15:24:16 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[24-Aug-2024 15:25:42 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[24-Aug-2024 15:26:23 UTC] PHP Warning:  Undefined variable $multiple in /var/www/html/wp-content/plugins/pure-metafields/metaboxes/fields/select.php on line 13
+[24-Aug-2024 15:26:23 UTC] PHP Warning:  Undefined variable $multiple in /var/www/html/wp-content/plugins/pure-metafields/metaboxes/fields/select.php on line 13
+[24-Aug-2024 15:28:22 UTC] PHP Warning:  Undefined array key "editor_post_id" in /var/www/html/wp-content/plugins/elementor/modules/history/revisions-manager.php on line 363
+[24-Aug-2024 16:00:36 UTC] PHP Deprecated:  A função print_emoji_styles está <strong>obsoleta</strong> desde a versão 6.4.0! Em vez disso, use wp_enqueue_emoji_styles. in /var/www/html/wp-includes/functions.php on line 6085
+[24-Aug-2024 16:30:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[24-Aug-2024 16:30:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[24-Aug-2024 16:32:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95
+[24-Aug-2024 16:32:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /var/www/html/wp-content/themes/technix/inc/common/technix-breadcrumb.php on line 95

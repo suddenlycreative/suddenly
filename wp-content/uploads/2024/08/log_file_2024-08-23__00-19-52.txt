@@ -1,0 +1,11 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost
+Data file = /var/www/html/wp-content/uploads/2024/08/demo-content-import-file_2024-08-23__00-19-52.xml
+Widget file = /var/www/html/wp-content/uploads/2024/08/demo-widgets-import-file_2024-08-23__00-19-52.json
+Customizer file = /var/www/html/wp-content/uploads/2024/08/demo-customizer-import-file_2024-08-23__00-19-52.dat
+Redux files:
+not defined!

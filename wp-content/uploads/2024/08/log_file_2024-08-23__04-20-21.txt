@@ -1,0 +1,85 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost
+Data file = /var/www/html/wp-content/themes/technix/sample-data/contents-demo.xml
+Widget file = /var/www/html/wp-content/themes/technix/sample-data/widget-settings.json
+Customizer file = /var/www/html/wp-content/themes/technix/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+portfolio-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Bloco - No Title - Imported to Inactive
+Bloco - No Title - Imported to Inactive
+
+Blog Sidebar : 
+
+Pesquisar - Search Here - Imported
+TP Sidebar Posts Image - Recent Post - Imported
+Categorias - Category - Imported
+Nuvem de tags - Tags - Imported
+
+Services Sidebar : 
+
+TP Services List - No Title - Imported
+Bloco - No Title - Imported
+
+Footer 1 : 
+
+HTML personalizado - No Title - Imported
+
+Footer 2 : 
+
+Menu - Pages - Imported
+
+Footer 3 : 
+
+HTML personalizado - Newsletter - Imported
+
+Footer Style 2 : 1 : 
+
+HTML personalizado - Newsletter - Imported
+
+Footer Style 2 : 2 : 
+
+Menu - Pages - Imported
+
+Footer Style 2 : 3 : 
+
+HTML personalizado - About Us - Imported
+
+Footer Style 3 : 1 : 
+
+HTML personalizado - No Title - Imported
+
+Footer Style 3 : 2 : 
+
+Menu - Pages - Imported
+
+Footer Style 3 : 3 : 
+
+HTML personalizado - Contact Info - Imported
+
+Footer Style 3 : 4 : 
+
+HTML personalizado - Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
