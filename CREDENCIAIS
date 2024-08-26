@@ -1,0 +1,28 @@
+
+ssh -i "suddenly.pem" ubuntu@ec2-18-233-96-235.compute-1.amazonaws.com
+
+
+CREATE DATABASE wordpress_db;
+CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'Agenciatec2024#';
+GRANT ALL PRIVILEGES ON wordpress_db.* TO 'wordpress_user'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+
+Suddenly - Wordpress
+admin
+Projet2024#
+ti.suddenly@gmail.com
+
+Launch an instance: suddenly-wordpress
+Nome do grupo de segurança: suddenly-site
+Endereço IPv4 público: 18.233.96.235
+Endereços IPv4 privados: 172.31.89.103
+DNS IPv4 público: ec2-18-233-96-235.compute-1.amazonaws.com
+
+ssh -i "suddenly.pem"  ubuntu@ec2-18-233-96-235.compute-1.amazonaws.com
+
+DEPLOY NA VW AWS - UBUNTU
+
+sudo apt-get update -y
+
+SENHA root MySQL no AWS: Agenciatec2024#
